@@ -41,7 +41,8 @@ body {
 }
 
 .box {
-    border: 2px solid black;
+    border: 1px solid black;
+    border-radius: 5px;
     width: 500px;
     padding: 20px;
 }
@@ -91,7 +92,8 @@ text {
     align-items: center;
     justify-content: space-between;
     padding-top: 10px;
-    border: 2px solid black;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .email-grid {
@@ -163,4 +165,244 @@ text {
 }
 
 .landing-page-img {
+}
+
+.recurring-comm-diagram {
+    width: 470px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.recurring-ele {
+    text-align: center;
+    height: 120px;
+    width: 400px;
+    FONT-SIZE: 15px;
+    position: relative;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.recur-arrow {
+    transform: rotate(270deg);
+    width: 50px;
+}
+
+.recur-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recur-img {
+    display: block;
+}
+
+.landing-page-diagram {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.img-border {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.landing-top {
+    background: white;
+    height: 5%;
+    width: 100%;
+}
+
+.landing-middle {
+    background: rgb(43, 142, 235);
+    height: 60%;
+    width: 100%;
+    color: white;
+    flex-direction: column;   
+    display: flex;
+    gap: 21px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.landing-bottom {
+    background: rgb(255, 255, 255);
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+
+.landing-middle-content {
+    width: 75%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.landing-title {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-main-title {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.landing-subtitle {
+    font-size: 13px;
+}
+
+.landing-ebook {
+    height: 180px;
+    width: 135px;
+    background: yellow;
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    padding: 0 10px 0 10px;
+}
+
+.sign-up-form {
+    height: 180px;
+    width: 200px;
+    background: rgb(53, 102, 158);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start ;
+    padding: 13px 0 0 13px;
+
+}
+
+h4 {
+    font-size: 7.7px;
+}
+
+.sign-up-form-content text {
+    font-size: 8px;
+}
+
+.sign-up-form-content {
+    width: 88%;
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#landing-txt {
+    padding-left: 0px;
+}
+
+input {
+    border-radius: 10px;
+    padding-left: 11px;
+    border: none;
+    font-size: 8.5px;
+    height: 19px;
+
+}
+
+::placeholder {
+
+}
+
+#sign-up-btn {
+    height: 20px;
+    width: 88px;
+    align-self: flex-end;
+    border: none ;
+    border-radius: 10px;
+    font-size: 10px; 
+    background: rgb(216, 216, 216);
+}
+
+.landing-bottom-title {
+    background: rgb(224, 224, 224);
+    height: 25px;
+    width: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.bullet-points {
+    width: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bullet {
+     width: 30%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     gap: 15px;
+}
+
+.bullet-title {
+    font-size: 9px;
+    padding-left: 0;
+    font-weight: bold;
+}
+
+.bullet-txt {
+    font-size: 7px;
+    padding-left: 0;
+    text-align: center;
+}
+
+.bullet-circle {
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
 }
