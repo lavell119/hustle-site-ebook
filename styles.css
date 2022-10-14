@@ -413,7 +413,6 @@ input {
 
 .hosting-sign-up-diagram {
     width: 500px;
-    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -421,4 +420,33 @@ input {
     padding-top: 10px;
     border: 1px solid black;
     border-radius: 5px;
+}
+
+.hosting-wrapper {
+    height: 88%;
+    width: 100%;
+}
+
+.hosting-seperator {
+    height: 75px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.seperator-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.seperator-right {
+    width: 50%;
+    height: 100%;
+}
+
+.hosting-number {
+    font-size: 26px;
+    font-weight: bold;
 }
