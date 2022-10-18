@@ -302,13 +302,13 @@ text {
     background: silver;
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(0, 0, 0);
     justify-content: center;
     border-radius: 5px;
     text-align: center;
     font-size: 15px;
     padding: 0 10px 0 10px;
-    text-shadow: 0px 0px 9px black;
+    font-weight: bold;
 
 }
 
@@ -437,6 +437,7 @@ input {
 
     border: 1px solid black;
     display: flex;
+    padding-top: 20px;
 }
 
 .seperator-left {
@@ -456,7 +457,6 @@ input {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    background: purple;
     padding: 0px 20px 20px 20px;
 }
 
@@ -469,7 +469,6 @@ input {
 }
 
 .seperator-right-img {
-    background: red;
     width: 400px;
     height: auto;
 }
@@ -477,7 +476,6 @@ input {
 .hosting-number {
     font-size: 26px;
     font-weight: bold;
-    background: red;
 }
 
 .traffic-strategies {
